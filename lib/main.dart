@@ -1,3 +1,7 @@
+//* @aprekt.dev
+//* Complete code on github
+//* link in bio
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -59,8 +63,6 @@ class ModalBottomSheet extends StatelessWidget {
                       tileMode: TileMode.clamp),
                 ),
                 height: 200,
-                // color: const Color(0xff7f2400),
-                // color: const Color(0xff0092cc),
                 child: Center(
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
