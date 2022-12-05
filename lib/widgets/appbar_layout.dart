@@ -6,19 +6,17 @@ class AppBarlayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return 
-    // AppBar(title: const Text(_title));
-    Container(
-      alignment: Alignment.centerLeft,
-        // color: Colors.blue,
+    return Container(
+        alignment: Alignment.centerLeft,
         margin: const EdgeInsets.only(top: 40.0, left: 15.0),
         child: const SizedBox(
           height: 32.0,
           child: Text(
             _title,
-            style: TextStyle(color: Colors.white,
-            fontSize: 20,
-            fontWeight: FontWeight.w500,
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 20,
+              fontWeight: FontWeight.w500,
             ),
           ),
         ));
